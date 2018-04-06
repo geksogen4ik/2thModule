@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleTwo", "..\..\a-level\Modul_2-master\ModuleTwo.csproj", "{B202DFF4-4E58-4CE6-BF1E-7CC24B8D2541}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleTwo", "..\..\Users\User\Downloads\Modul_2-master\ModuleTwo.csproj", "{B202DFF4-4E58-4CE6-BF1E-7CC24B8D2541}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A6A3E630-5A5E-495F-8C5A-39BE64E1BAAD}
+		SolutionGuid = {D7C5412F-2E6B-425D-90DB-772179D9D71C}
 	EndGlobalSection
 EndGlobal
