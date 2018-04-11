@@ -40,6 +40,10 @@ namespace ModuleTwo
             {
                 Console.WriteLine("path contains a colon (':') that is not part of a volume identifier");
             }
+            catch(Exception Error)
+            {
+                Console.WriteLine(Error.Message);
+            }
 
             return result;
         }

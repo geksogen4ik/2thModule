@@ -16,20 +16,37 @@ namespace ModuleTwo
 
     public class FinderService : IFinderService
     {
-
+        private object directory;
 
         public string FindFile(string locationToSearch, string fileName)
         {
-            Console.WriteLine("Enter the file's name");
-            
-                        fileName = Console.ReadLine();
-                    
-                        locationToSearch = Path.GetFullPath(fileName);
-                        return locationToSearch;
-    
+            //Console.WriteLine("What file do you search?");
+            fileName = "CatchMeIfYouCan.txt";
+            locationToSearch = @"D:\";
+
+            foreach (string file in Directory.GetFiles(locationToSearch))
+            {
+                if (new FileInfo(file).Name.Equals(fileName))
+                {
+                    Console.WriteLine(file);
+                    Console.ReadKey();
+                    return file;
                 }
             }
+            Console.ReadKey();
+            return "";
+
         }
+
+    }
+
+}
+
+    
+
+
+            
+        
     
 
     
