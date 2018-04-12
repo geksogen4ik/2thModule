@@ -59,6 +59,7 @@ namespace ModuleTwo
             catch (Exception e)
             {
                 // your code here
+                Console.WriteLine(e.Message);
             }
 
             return result;
@@ -75,6 +76,7 @@ namespace ModuleTwo
             catch (Exception e)
             {
                 // your code here
+                Console.WriteLine(e.Message);
             }
 
             return result;

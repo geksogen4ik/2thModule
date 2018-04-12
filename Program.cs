@@ -35,8 +35,11 @@ namespace ModuleTwo
         private static void Main(string[] args)
         {
             IModuleTwoInvoker invoker = new ModuleTwoInvoker();
+            string location = invoker.FindFile(@"D:\", "");
+            string content = invoker.GetFileContent(location, "");
+            invoker.SaveFile(content, location,"");
 
-           
+
 
             //NOTE:
             //В теориии вам должно хватить того что написанно + ваш код в местах где есть "//Your code here"  подобный комментарий :)

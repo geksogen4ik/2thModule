@@ -20,9 +20,11 @@ namespace ModuleTwo
 
         public string FindFile(string locationToSearch, string fileName)
         {
-            //Console.WriteLine("What file do you search?");
-            fileName = "CatchMeIfYouCan.txt";
+            
+            //fileName = "CatchMeIfYouCan.txt";
             locationToSearch = @"D:\";
+            Console.WriteLine("Enter the file's name");
+            fileName = Console.ReadLine();
 
             foreach (string file in Directory.GetFiles(locationToSearch))
             {
