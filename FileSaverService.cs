@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace MKM
+namespace FileSaverService
 {
     public interface IFileSaverService
     {
